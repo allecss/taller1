@@ -4,18 +4,20 @@
 public class Carne {
 
     String corte;
-    double termino;
+    double[] termino;
     double precio;
     Cocina cocina;
 
-
-    public Carne(){
-           corte = "";
-           termino = .5 .75 1;
-           precio = 299.00;
+    public Carne() {
+        corte = "";
+        termino = new double[3];
+//
+        termino = {0.5f, 0.75f, 1.0f};
+        precio = 299.00;
     }
 
 public void cocinar() {
+    double cantDeMat = 50 ;
     System.out.println("carne asada!!");
     cocina.cocinarCarne();
     }

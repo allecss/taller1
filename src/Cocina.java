@@ -3,9 +3,7 @@ import java.util.Scanner;
 /**
  * Created by Chisko on 8/06/15.
  */
-public class Cocina implements AccionesPastel {
-
-
+public class Cocina implements AccionesPastel, AccionesCarne {
 
     public static void main(String[] args) {
         int numdepasteles = 0;
@@ -21,7 +19,7 @@ public class Cocina implements AccionesPastel {
 
         switch(i) {
             case 1:
-                Pastel
+                Pastel p = new Pastel();
                 break;
 
             case 2:
@@ -55,7 +53,7 @@ public class Cocina implements AccionesPastel {
             numdecarnes++;
         }
     @Override
-    public voidvenderCarne(){
+    public void venderCarne(){
             numdeCarnes--;
         }
 

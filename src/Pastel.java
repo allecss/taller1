@@ -15,15 +15,12 @@ public class Pastel {
     }
 
     public void cocinar(){
-        System.out.println("Pastel cocinado!");
+        System.out.println("Alguien pidio un Pastel!");
         cocina.cocinarPastel();
     }
 
     public void vender(){
-        System.out.print("pastel Vendido!");
+        System.out.print("Carne Vendido!");
         cocina.venderPastel();
-
-
     }
-
 }

@@ -3,8 +3,7 @@
  */
 public interface AccionesCarne {
 
-    void cocinarCarne();
+    void cocinarCarne(String termino);
     void venderCarne();
-
 
 }
